@@ -1,0 +1,55 @@
+INFO: 2025/10/22 15:25:54 main.go:26: [main] The logger is initialized
+INFO: 2025/10/22 15:25:54 main.go:34: [database] Successfully connected to PostgreSQL
+INFO: 2025/10/22 15:25:54 main.go:39: [database] Migrations have been successfully applied
+INFO: 2025/10/22 15:25:54 main.go:46: [server] Starting HTTP server on localhost:8080
+INFO: 2025/10/22 15:25:58 main.go:61: [server] Initiating a graceful shutdown of the server
+ERROR: 2025/10/22 15:25:58 main.go:57: [server] Failed to start server: http: Server closed
+INFO: 2025/10/22 15:25:58 main.go:72: [server] graceful shudown completed
+INFO: 2025/10/22 15:31:27 main.go:26: [main] The logger is initialized
+INFO: 2025/10/22 15:31:27 main.go:34: [database] Successfully connected to PostgreSQL
+INFO: 2025/10/22 15:31:27 main.go:39: [database] Migrations have been successfully applied
+INFO: 2025/10/22 15:31:27 main.go:46: [server] Starting HTTP server on localhost:8080
+INFO: 2025/10/22 15:31:37 handler.go:33: [handler: PingDatabase] Database ping successful
+INFO: 2025/10/22 15:31:37 router.go:61: [http] GET /ping 200 OK | Client: 127.0.0.1:60285 | START: 108.37.10998 1022:3737:10, Time: 0s
+INFO: 2025/10/22 15:31:38 handler.go:33: [handler: PingDatabase] Database ping successful
+INFO: 2025/10/22 15:31:38 router.go:61: [http] GET /ping 200 OK | Client: 127.0.0.1:60287 | START: 108.38.10998 1022:3838:10, Time: 0s
+INFO: 2025/10/22 15:31:39 handler.go:33: [handler: PingDatabase] Database ping successful
+INFO: 2025/10/22 15:31:39 router.go:61: [http] GET /ping 200 OK | Client: 127.0.0.1:60289 | START: 108.39.10998 1022:3939:10, Time: 1.046ms
+INFO: 2025/10/22 15:31:39 handler.go:33: [handler: PingDatabase] Database ping successful
+INFO: 2025/10/22 15:31:39 router.go:61: [http] GET /ping 200 OK | Client: 127.0.0.1:60291 | START: 108.39.10998 1022:3939:10, Time: 445.7µs
+INFO: 2025/10/22 15:31:40 handler.go:33: [handler: PingDatabase] Database ping successful
+INFO: 2025/10/22 15:31:40 router.go:61: [http] GET /ping 200 OK | Client: 127.0.0.1:60293 | START: 108.40.10998 1022:4040:10, Time: 938.4µs
+INFO: 2025/10/22 15:31:40 handler.go:33: [handler: PingDatabase] Database ping successful
+INFO: 2025/10/22 15:31:40 router.go:61: [http] GET /ping 200 OK | Client: 127.0.0.1:60295 | START: 108.40.10998 1022:4040:10, Time: 0s
+INFO: 2025/10/22 15:31:41 handler.go:33: [handler: PingDatabase] Database ping successful
+INFO: 2025/10/22 15:31:41 router.go:61: [http] GET /ping 200 OK | Client: 127.0.0.1:60297 | START: 108.41.10998 1022:4141:10, Time: 1.1529ms
+INFO: 2025/10/22 15:31:41 handler.go:33: [handler: PingDatabase] Database ping successful
+INFO: 2025/10/22 15:31:41 router.go:61: [http] GET /ping 200 OK | Client: 127.0.0.1:60299 | START: 108.41.10998 1022:4141:10, Time: 0s
+INFO: 2025/10/22 15:31:41 handler.go:33: [handler: PingDatabase] Database ping successful
+INFO: 2025/10/22 15:31:41 router.go:61: [http] GET /ping 200 OK | Client: 127.0.0.1:60301 | START: 108.41.10998 1022:4141:10, Time: 832.8µs
+INFO: 2025/10/22 15:31:41 handler.go:33: [handler: PingDatabase] Database ping successful
+INFO: 2025/10/22 15:31:41 router.go:61: [http] GET /ping 200 OK | Client: 127.0.0.1:60303 | START: 108.41.10998 1022:4141:10, Time: 540.8µs
+INFO: 2025/10/22 15:31:42 handler.go:33: [handler: PingDatabase] Database ping successful
+INFO: 2025/10/22 15:31:42 router.go:61: [http] GET /ping 200 OK | Client: 127.0.0.1:60305 | START: 108.42.10998 1022:4242:10, Time: 535.2µs
+INFO: 2025/10/22 15:31:42 handler.go:33: [handler: PingDatabase] Database ping successful
+INFO: 2025/10/22 15:31:42 router.go:61: [http] GET /ping 200 OK | Client: 127.0.0.1:60307 | START: 108.42.10998 1022:4242:10, Time: 0s
+INFO: 2025/10/22 15:31:42 handler.go:33: [handler: PingDatabase] Database ping successful
+INFO: 2025/10/22 15:31:42 router.go:61: [http] GET /ping 200 OK | Client: 127.0.0.1:60310 | START: 108.42.10998 1022:4242:10, Time: 874.8µs
+INFO: 2025/10/22 15:31:42 handler.go:33: [handler: PingDatabase] Database ping successful
+INFO: 2025/10/22 15:31:42 router.go:61: [http] GET /ping 200 OK | Client: 127.0.0.1:60312 | START: 108.42.10998 1022:4242:10, Time: 0s
+INFO: 2025/10/22 15:31:43 handler.go:33: [handler: PingDatabase] Database ping successful
+INFO: 2025/10/22 15:31:43 router.go:61: [http] GET /ping 200 OK | Client: 127.0.0.1:60314 | START: 108.43.10998 1022:4343:10, Time: 947.6µs
+INFO: 2025/10/22 15:31:43 handler.go:33: [handler: PingDatabase] Database ping successful
+INFO: 2025/10/22 15:31:43 router.go:61: [http] GET /ping 200 OK | Client: 127.0.0.1:60316 | START: 108.43.10998 1022:4343:10, Time: 855.3µs
+INFO: 2025/10/22 15:31:43 handler.go:33: [handler: PingDatabase] Database ping successful
+INFO: 2025/10/22 15:31:43 router.go:61: [http] GET /ping 200 OK | Client: 127.0.0.1:60318 | START: 108.43.10998 1022:4343:10, Time: 144.2µs
+INFO: 2025/10/22 15:31:43 handler.go:33: [handler: PingDatabase] Database ping successful
+INFO: 2025/10/22 15:31:43 router.go:61: [http] GET /ping 200 OK | Client: 127.0.0.1:60320 | START: 108.43.10998 1022:4343:10, Time: 533.3µs
+INFO: 2025/10/22 15:31:44 handler.go:33: [handler: PingDatabase] Database ping successful
+INFO: 2025/10/22 15:31:44 router.go:61: [http] GET /ping 200 OK | Client: 127.0.0.1:60322 | START: 108.44.10998 1022:4444:10, Time: 691.6µs
+INFO: 2025/10/22 15:31:54 main.go:61: [server] Initiating a graceful shutdown of the server
+ERROR: 2025/10/22 15:31:54 main.go:57: [server] Failed to start server: http: Server closed
+INFO: 2025/10/22 15:31:54 main.go:73: [server] graceful shudown completed
+INFO: 2025/10/22 15:58:08 main.go:26: [main] The logger is initialized
+INFO: 2025/10/22 15:58:08 main.go:34: [database] Successfully connected to PostgreSQL
+INFO: 2025/10/22 15:58:08 main.go:39: [database] Migrations have been successfully applied
