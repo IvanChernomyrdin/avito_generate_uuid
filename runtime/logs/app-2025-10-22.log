@@ -53,3 +53,12 @@ INFO: 2025/10/22 15:31:54 main.go:73: [server] graceful shudown completed
 INFO: 2025/10/22 15:58:08 main.go:26: [main] The logger is initialized
 INFO: 2025/10/22 15:58:08 main.go:34: [database] Successfully connected to PostgreSQL
 INFO: 2025/10/22 15:58:08 main.go:39: [database] Migrations have been successfully applied
+INFO: 2025/10/22 16:02:15 main.go:26: [main] The logger is initialized
+INFO: 2025/10/22 16:02:15 main.go:34: [database] Successfully connected to PostgreSQL
+INFO: 2025/10/22 16:02:15 main.go:39: [database] Migrations have been successfully applied
+INFO: 2025/10/22 16:02:15 main.go:46: [server] Starting HTTP server on localhost:8080
+INFO: 2025/10/22 16:02:29 router.go:67: [http] GET /api/groups 200 OK | Client: 127.0.0.1:60807 | START: 108.29.10998 1022:2929:10, Time: 0s
+INFO: 2025/10/22 16:02:42 router.go:67: [http] -v /api/groups 405 Method Not Allowed | Client: 127.0.0.1:60812 | START: 108.42.10998 1022:4242:10, Time: 0s
+INFO: 2025/10/22 17:38:17 main.go:61: [server] Initiating a graceful shutdown of the server
+ERROR: 2025/10/22 17:38:17 main.go:57: [server] Failed to start server: http: Server closed
+INFO: 2025/10/22 17:38:17 main.go:73: [server] graceful shudown completed

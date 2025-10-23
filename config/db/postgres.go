@@ -42,8 +42,8 @@ func CloseConnection(db *sql.DB) error {
 }
 
 func MigrationsDatabase(DB *sql.DB) error {
-	if _, err := os.Stat("migrations/postgres"); os.IsNotExist(err) {
-		return nil // Папки нет - это нормально
+	if _, err := os.Stat("migrations"); os.IsNotExist(err) {
+		return nil
 	}
 
 	// запускаем миграции
@@ -68,7 +68,7 @@ func MigrationsDatabase(DB *sql.DB) error {
 
 func PingDatabase() error {
 	if err := DB.Ping(); err != nil {
-		return fmt.Errorf("The database isn't responding")
+		return fmt.Errorf("the database isn't responding: %w", err)
 	}
 	return nil
 }
